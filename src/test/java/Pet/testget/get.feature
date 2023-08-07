@@ -1,7 +1,7 @@
 Feature: Post API Pet Store
 
   #2 - Este test se ejecuta en cualquier momento
-  @get_find_name
+  @get_find_id
   Scenario:  Finds Pet by id
     * call read("../testpost/post.feature@post")
     Given url "https://petstore.swagger.io/v2/pet/"+ Id

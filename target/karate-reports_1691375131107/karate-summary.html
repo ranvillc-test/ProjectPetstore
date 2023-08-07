@@ -10,7 +10,7 @@
     <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
     <script type="text/javascript" src="res/bootstrap.min.js"></script>
     <script type="text/javascript" src="res/karate-report.js"></script>
-    <title>Karate Tags Report</title>  
+    <title>Karate Summary Report</title>  
   </head>
   <body>   
     <div id="root-container">
@@ -27,31 +27,40 @@
     </div>
   </div>
   <div id="nav-type">
-    <div>Tags</div>
+    <div>Features</div>
   </div>         
   <div id="nav-date">
-    <div>2023-08-06 09:25:38 p. m.</div>
+    <div>2023-08-06 09:24:48 p. m.</div>
   </div>        
 </div>
 
       </div>
       <div id="content">
         <div class="page-heading alert alert-primary">
-          <a href="karate-summary.html">Summary</a>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <a href="karate-timeline.html">Timeline</a>
         </div>       
-        <table class="tags-table table table-sm ">
+        <table class="features-table table table-sm">
           <thead>
             <tr>
-              <th class="feature-cell">Feature</th>
-              <th classapend="passed">get_find_status</th>
+              <th>Feature</th>
+              <th>Title</th>
+              <th class="num">Passed</th>
+              <th class="num">Failed</th>
+              <th class="num">Scenarios</th>
+              <th class="num">Time (ms)</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="passed">
-              <td class="feature-cell">
-                <a href="src.test.java.Pet.testget.get.html">src/test/java/Pet/testget/get.feature</a>
+            <tr class="passed">              
+              <td>
+                <a href="src.test.java.Pet.testput.put.html">src/test/java/Pet/testput/put.feature</a>
               </td>
-              <td classapend="passed">X</td>
+              <td>Post API Pet Store</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">4929</td>            
             </tr>            
           </tbody>
         </table>
