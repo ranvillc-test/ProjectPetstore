@@ -1,0 +1,13 @@
+Proyecto API petsore 06/08/2023
+
+Dentro del desarrollo de las pruebas automatizadas API para el flujo de agregar, consultar y actualizar mascotas en la petstore se encontraron retos que se fueron solucionando a la medida de lo que se requería, se realizaron varias pruebas para validar la estabilidad se intentó de realizar un código bajo buenas prácticas y patrón de diseño.
+
+Las respuestas de ejecución de la suite de prueba dependen de las condiciones/disponibilidad de la plataforma y equipo
+Scenario: [1] Add a new pet to the store time: de 2054ms
+Scenario: [2] Finds Pet by id time: 5535ms
+Scenario: [3] Update name an status existing pet time: 5482ms
+Scenario: [4] Finds Pet by status time: 1846
+
+Las pruebas desarrolladas cumplen con éxito la funcionalidad solicitada
+
+Rafael Antonio Villa Cabarcas
